@@ -6,7 +6,7 @@ app.use(express.json());
 
 const PORT = 5004;
 
-const serviceAccount = require("./podx-test-firebase-adminsdk-ric0y-5ab307b4b6.json");
+const serviceAccount = require("./key/podx-test-firebase-adminsdk-ric0y-5ab307b4b6.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
